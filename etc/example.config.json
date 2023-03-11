@@ -1,0 +1,44 @@
+{
+  "http": {
+    "port": 22849
+  },
+  "sources": [
+    {
+      "type": "modbus_http",
+      "modbusAddress": 48,
+      "overrides": {
+        "cellCount": 4
+      }
+    },
+    {
+      "enabled": false,
+      "type": "modbus_http",
+      "modbusAddress": 49,
+      "overrides": {
+        "cellCount": 4
+      }
+    },
+    {
+      "type": "modbus_http",
+      "modbusAddress": 50,
+      "overrides": {
+        "cellCount": 4
+      }
+    },
+    {
+      "type": "modbus_http",
+      "modbusAddress": 51,
+      "overrides": {
+        "cellCount": 4
+      }
+    },
+    {
+      "type": "modbus_http",
+      "modbusAddress": 52,
+      "overrides": {
+        "cellCount": 4,
+        "serial": "21RBS1105152002938"
+      }
+    }
+  ]
+}
